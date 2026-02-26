@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'Q2', 
-                url: 'https://github.com/your-username/2026-Q1.git'
+                url: 'hhttps://github.com/rabiyashendure-coder/2026-Q1.git'
             }
         }
 
