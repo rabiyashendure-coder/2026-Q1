@@ -11,7 +11,7 @@ pipeline {
 
         stage('Build Q2') {
             steps {
-                echo "Building QA branch"
+                echo "Building Q2 branch"
                 sh 'ls -l'
             }
         }
