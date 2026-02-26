@@ -9,7 +9,14 @@ pipeline {
             }
         }
 
-               stage('Archive File') {
+        stage('Build Q2') {
+            steps {
+                echo "Building QA branch"
+                sh 'ls -l'
+            }
+        }
+
+        stage('Archive File') {
             steps {
                 archiveArtifacts artifacts: 'index.html', fingerprint: true
             }
